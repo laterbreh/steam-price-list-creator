@@ -1,0 +1,18 @@
+{
+  "name": "steam-market-scraper",
+  "version": "1.0.0",
+  "description": "Scrapes steam marketplace by app id and creates a nice pricing DB. ",
+  "main": "start.js",
+  "scripts": {
+    "test": "node start.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.5.2",
+    "cheerio": "^0.20.0",
+    "nimble": "0.0.2",
+    "request": "^2.69.0",
+    "sleep": "^3.0.1"
+  }
+}
